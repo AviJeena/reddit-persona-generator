@@ -30,14 +30,18 @@ This project was created as part of a Generative AI internship assignment.
 3. (Optional) Create a virtual environment:
    python -m venv venv
    source venv/bin/activate   # or venv\Scripts\activate on Windows
+<<<<<<< HEAD
+
+=======
 <------------------------------------------------------------------------->
+>>>>>>> 661811744447d4030fa6e27706eb6afd4a2c60b7
 🔐 Configuration
 Create a .env file in the root folder with the following:
    REDDIT_CLIENT_ID=your_reddit_client_id
    REDDIT_CLIENT_SECRET=your_reddit_client_secret
    REDDIT_USER_AGENT=your_user_agent_string
    NOTE-: ⚠️ OpenAI API key is not required — the model runs offline using HuggingFace Transformers.
-<---------------------------------------------------------------------------------------------------------------------->
+
 🚀 How to Run
 To generate a persona for a Reddit user:
    python reddit_persona.py https://www.reddit.com/user/Hungry-Move-6603/
@@ -45,7 +49,7 @@ To generate a persona for a Reddit user:
     - Scrape recent posts and comments
     - Generate a detailed user persona
     - Save the output in a file like persona_Hungry-Move-6603.txt
-<----------------------------------------------------------------------------------------------------------------------->
+
 📁 Output
 Each output .txt file contains:
     - Age range
@@ -54,7 +58,7 @@ Each output .txt file contains:
     - Political views
     - Writing style
     - Citations to specific Reddit posts/comments
-<----------------------------------------------------------------------------------------------------------------------->
+
 ✅ Sample Users
 This repo includes outputs for:
     - u/kojied
@@ -62,10 +66,10 @@ This repo includes outputs for:
 Check the files:
     - persona_kojied.txt
     - persona_Hungry-Move-6603.txt
-<----------------------------------------------------------------------------------------------------------------------->
+
 🙏 License
 This code was developed strictly for the purpose of an internship evaluation and is not intended for commercial use.
-<----------------------------------------------------------------------------------------------------------------------->
+
 📌 Notes
 This solution works fully offline — no OpenAI billing is required.
 The script avoids storing credentials by using a .env file (excluded via .gitignore)
@@ -82,7 +86,7 @@ The script avoids storing credentials by using a .env file (excluded via .gitign
    git add README.md
    git commit -m "Updated README for final submission"
    git push
-<----------------------------------------------------------------------------------------------------------------------->
+
 
 
 
