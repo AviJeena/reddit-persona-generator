@@ -31,15 +31,14 @@ This project was created as part of a Generative AI internship assignment.
    python -m venv venv
    source venv/bin/activate   # or venv\Scripts\activate on Windows
 
-
-###🔐 Configuration-: 
+### 🔐 Configuration
 Create a .env file in the root folder with the following:
    REDDIT_CLIENT_ID=your_reddit_client_id
    REDDIT_CLIENT_SECRET=your_reddit_client_secret
    REDDIT_USER_AGENT=your_user_agent_string
    NOTE-: ⚠️ OpenAI API key is not required — the model runs offline using HuggingFace Transformers.
 
-###🚀 How to Run-: 
+### 🚀 How to Run
 To generate a persona for a Reddit user:
    python reddit_persona.py https://www.reddit.com/user/Hungry-Move-6603/
    This will:
@@ -47,7 +46,7 @@ To generate a persona for a Reddit user:
     - Generate a detailed user persona
     - Save the output in a file like persona_Hungry-Move-6603.txt
 
-###📁 Output-: 
+### 📁 Output
 Each output .txt file contains:
     - Age range
     - Personality traits
@@ -56,7 +55,7 @@ Each output .txt file contains:
     - Writing style
     - Citations to specific Reddit posts/comments
 
-###✅ Sample Users-: 
+### ✅ Sample Users
 This repo includes outputs for:
     - u/kojied
     - u/Hungry-Move-6603
@@ -64,10 +63,10 @@ Check the files:
     - persona_kojied.txt
     - persona_Hungry-Move-6603.txt
 
-###🙏 License-: 
+### 🙏 License
 This code was developed strictly for the purpose of an internship evaluation and is not intended for commercial use.
 
-###📌 Notes-:
+### 📌 Notes
 This solution works fully offline — no OpenAI billing is required.
 The script avoids storing credentials by using a .env file (excluded via .gitignore)
 
