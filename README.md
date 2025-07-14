@@ -30,7 +30,7 @@ This project was created as part of a Generative AI internship assignment.
 3. (Optional) Create a virtual environment:
    python -m venv venv
    source venv/bin/activate   # or venv\Scripts\activate on Windows
-<---------------------------------------------------------------------------------------------------------------------->
+<------------------------------------------------------------------------->
 🔐 Configuration
 Create a .env file in the root folder with the following:
    REDDIT_CLIENT_ID=your_reddit_client_id
